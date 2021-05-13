@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.container {
+  border: 10px solid #37475A;
+  background-color: #232F3E;
+  border-radius: 30px;
+  width: 40vw;
+  height: 30vh;
+  position: relative;
+  left: 27%;
+  top: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 8px solid #22ACB1;
+  width: 10vw;
+  height: 5vh;
+  margin: 0 2vw;
+  text-align: center;
+  padding-top: 3px;
+  background-color: #3BCFC9;
+  color: #4A4B9F;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.gap {
+ /* border: 2px solid red; */
+ width: 1vw;  
+ text-align: center;
+ font-weight: bold;
+ color: white;
+ position: relative;
+ font-size: 8vh;
+}
+
+.one{
+  left: 40.7%;
+  top: -17vh;
+}
+
+.two {
+left: 54.7%;
+top: -26vh;
+}
+
+#Dhour{
+  position: relative;
+  left: 31%;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline-block;
+  padding: 0 1vw;
+}
+
+#Dmin {
+  position: relative;
+  left: 38%;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline-block;
+  padding: 0 1vw;
+}
+
+#Dsec {
+  position: relative;
+  left: 43.5%;
+  font-family: 'Ubuntu', sans-serif;
+  display: inline-block;
+  padding: 0 1vw;
+}
+
+.font {
+ font-weight: bold;
+ color: #FEBD69;
+ top: -14vh;
+}
+
+h1 {
+  position: relative;
+  left: 37.5%;
+  top: 25vh;
+  border: 12px solid #C4D8E2;
+  display: inline-block;
+  padding: 3vh 1vw;
+  background-color: #003A6C;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1:hover {
+  background-color:  #C4D8E2;
+  border: 10px solid  #C4D8E2;
+  color: black;
+  font-weight: bolder;
+}
+
+body {
+  background-color: #007AA5;
+}
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.typewrite {
+  color: white;
+  position: relative;
+  left: 10%;
+  font-family: 'Ubuntu', sans-serif; 
+}
